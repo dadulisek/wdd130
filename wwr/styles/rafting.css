@@ -66,6 +66,13 @@ figure img{
     height: auto;
 }
 
+.wireframe{
+    text-decoration: none;
+    color: var(--accent1-color);
+    position: absolute;
+    left: 10%;
+}
+
 .navigation {
 	display: flex;
 	list-style: none;
@@ -194,4 +201,89 @@ footer p{
 
 .facebook{
     background-color: #fff;
-}   
+}
+
+.crew_holder{
+    border: solid 1px black;
+    background-color: var(--primary-color);
+    width: 1025px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.crew{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding: 1rem;
+}
+
+.crew img{
+    width: 200px;
+    height: auto;
+}
+
+.crew figcaption{
+    color: var(--accent1-color);
+}
+
+.contact_info{
+    background-color: var(--accent2-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    height: 300px;
+}
+
+.contact_info p{
+    margin: 1rem;
+}
+
+.contact_info iframe{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.contact_info h3{
+    text-align: center;
+}
+
+#crew_h3{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: var(--accent1-color);
+}
+
+.user_message{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: var(--accent2-color);
+    padding: 1rem;
+}
+
+.user_message label, input, textarea{
+    margin: 0.5rem;
+}
+
+.user_message button{
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    align-self: center;
+    width: 100px;
+    margin-top: 1rem;
+}
+
+.user_message fieldset{
+    border: none;
+}
+
+#user_message_box{
+    display: grid;
+    place-items: center;
+}
