@@ -67,10 +67,14 @@ figure img{
 }
 
 .wireframe{
-    text-decoration: none;
     color: var(--accent1-color);
     position: absolute;
     left: 10%;
+}
+
+.wireframe a{
+    color: var(--accent1-color);
+    text-decoration: none;
 }
 
 .navigation {
